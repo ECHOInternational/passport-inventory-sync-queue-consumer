@@ -1,0 +1,30 @@
+{
+  "name": "passport-inventory-sync-queue-consumer",
+  "version": "1.0.0",
+  "description": "Collects Passport inventory records from the queue and assigns them to worker lambda functions.",
+  "main": "lambda.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ECHOInternational/passport-inventory-sync-queue-consumer.git"
+  },
+  "keywords": [
+    "Lambda",
+    "AWS",
+    "SNS",
+    "SQS",
+    "Passport"
+  ],
+  "author": "Nate Flood for ECHO Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ECHOInternational/passport-inventory-sync-queue-consumer/issues"
+  },
+  "homepage": "https://github.com/ECHOInternational/passport-inventory-sync-queue-consumer#readme",
+  "dependencies": {
+    "aws-sdk": "^2.258.1",
+    "dotenv": "^6.0.0"
+  }
+}
