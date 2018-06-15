@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/ECHOInternational/passport-inventory-sync-queue-consumer#readme",
   "dependencies": {
+    "async": "^2.6.1",
     "aws-sdk": "^2.258.1",
     "dotenv": "^6.0.0"
   }

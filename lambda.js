@@ -1,4 +1,6 @@
 var AWS = require('aws-sdk');
+const async = require('async');
+
 AWS.config.update({region: 'us-east-1'});
 
 const sqs = new AWS.SQS();
